@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--抽屉菜单下的第一个控件就是主布句-->
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        tools:context=".ui.activity.WeatherActivity"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/now" android:id="@+id/nowweather"/>
+                <include layout="@layout/forecast" android:id="@+id/forecastweather"/>
+                <include layout="@layout/life_index" android:id="@+id/lifeIndexweather"/>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <!--抽屉下的第二个控件就是侧滑菜单-->
+    <FrameLayout
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/placeFragment"
+            android:name="com.rql.weatherreport.ui.fragment.PlaceFragment"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </fragment>
+
+    </FrameLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

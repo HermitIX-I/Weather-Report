@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WeatherReport</string>
+    <string name="forecast">Forceast</string>
+    <string name="aqi">Air Quality Index</string>
+    <string name="weather_clear_day">Clear Day</string>
+    <string name="weather_clear_night">Clear Night</string>
+    <string name="weather_partly_cloudy_day">Partly Cloudy Day</string>
+    <string name="weather_partly_cloudy_night">Partly Cloudy Night</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_wind">Windy</string>
+    <string name="weather_light_rain">Light Rain</string>
+    <string name="weather_moderate_rain">Moderate Rain</string>
+    <string name="weather_heavy_rain">Heavy Rain</string>
+    <string name="weather_storm_rain">Storm Rain</string>
+    <string name="weather_thunder_shower">Thunder Shower</string>
+    <string name="weather_sleet">Sleet</string>
+    <string name="weather_light_snow">Light Snow</string>
+    <string name="weather_moderate_snow">Moderate Snow</string>
+    <string name="weather_heavy_snow">Heavy Snow</string>
+    <string name="weather_storm_snow">Storm Snow</string>
+    <string name="weather_hail">Hail</string>
+    <string name="weather_light_haze">Light Haze</string>
+    <string name="weather_moderate_haze">Moderate Haze</string>
+    <string name="weather_heavy_haze">Heavy Haze</string>
+    <string name="weather_fog">Fog</string>
+    <string name="weather_dust">Dust</string>
+    <string name="lang">en_US</string>
+    <string name="qli">quality of life index</string>
+    <string name="cold">cold</string>
+    <string name="clothes">clothes</string>
+    <string name="UV">real-time UV</string>
+    <string name="wash">wash the car</string>
+    <string name="warning">warning</string>
+    <string name="address">Please enter the address</string>
+
+</resources>

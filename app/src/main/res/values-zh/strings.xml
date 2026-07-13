@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">天气预报</string>
+    <string name="forecast">预报</string>
+    <string name="aqi">空气指数</string>
+    <string name="weather_clear_day">晴</string>
+    <string name="weather_clear_night">晴</string>
+    <string name="weather_partly_cloudy_day">多云</string>
+    <string name="weather_partly_cloudy_night">多云</string>
+    <string name="weather_cloudy">阴</string>
+    <string name="weather_wind">大风</string>
+    <string name="weather_light_rain">小雨</string>
+    <string name="weather_moderate_rain">中雨</string>
+    <string name="weather_heavy_rain">大雨</string>
+    <string name="weather_storm_rain">暴雨</string>
+    <string name="weather_thunder_shower">雷阵雨</string>
+    <string name="weather_sleet">雨夹雪</string>
+    <string name="weather_light_snow">小雪</string>
+    <string name="weather_moderate_snow">中雪</string>
+    <string name="weather_heavy_snow">大雪</string>
+    <string name="weather_storm_snow">暴雪</string>
+    <string name="weather_hail">冰雹</string>
+    <string name="weather_light_haze">轻度雾霾</string>
+    <string name="weather_moderate_haze">中度雾霾</string>
+    <string name="weather_heavy_haze">重度雾霾</string>
+    <string name="weather_fog">雾</string>
+    <string name="weather_dust">浮尘</string>
+    <string name="lang">zh_CN</string>
+    <string name="qli">生活指数</string>
+    <string name="cold">感冒</string>
+    <string name="clothes">穿衣</string>
+    <string name="UV">实时紫外线</string>
+    <string name="wash">洗车</string>
+    <string name="warning">注意</string>
+    <string name="address">请输入地址</string>
+
+</resources>
